@@ -1,7 +1,8 @@
 package miu.edu.springBoot.PostUser.configurations;
 
-import com.example.demo.domain.Role;
-import com.example.demo.domain.User;
+
+import miu.edu.springBoot.PostUser.domain.Role;
+import miu.edu.springBoot.PostUser.domain.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

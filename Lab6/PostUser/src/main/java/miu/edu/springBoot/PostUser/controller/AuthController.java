@@ -1,12 +1,10 @@
 package miu.edu.springBoot.PostUser.controller;
 
 
-import com.example.demo.domain.authDTOs.AuthenticationRequest;
-import com.example.demo.domain.authDTOs.AuthenticationResponse;
-import com.example.demo.util.JwtUtil;
 import miu.edu.springBoot.PostUser.domain.authenticationDTOs.AuthenticationRequest;
 import miu.edu.springBoot.PostUser.domain.authenticationDTOs.AuthenticationResponse;
 import miu.edu.springBoot.PostUser.util.JwtUtil;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
