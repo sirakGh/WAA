@@ -2,6 +2,8 @@ package miu.edu.springBoot.PostUser.configurations;
 
 import com.example.demo.domain.User;
 import com.example.demo.repository.UserRepository;
+import miu.edu.springBoot.PostUser.domain.User;
+import miu.edu.springBoot.PostUser.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
